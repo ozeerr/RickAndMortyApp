@@ -6,7 +6,6 @@ const initialState={
 
 
 const episodeReducer=(state=initialState,action)=>{
-    console.log("bu",action.payload)
         switch(action.type){
             case FETCH_EPISODES:
                 return{

@@ -1,23 +1,22 @@
-//import liraries
-import React, { Component, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { View, Text, StyleSheet, FlatList } from 'react-native';
 import { screensStyle } from '../../styles/screensStyle';
 import {useSelector, useDispatch} from 'react-redux';
 import { getEpisodes } from '../../store/actions/episodeActions';
+import EpisodeCard from '../../components/uı/episodeCard';
 
-// create a component
 const Episodes = () => {
-    const {episode} = useSelector(state => state.episodes);
-    const dispatch = useDispatch();
-      useEffect(() => {
-        dispatch(getEpisodes());
-      }, [episode]);
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(getEpisodes());
+  }, []);
+  const {episode} = useSelector(state => state.episodes);
       
     return (
         <View style={screensStyle.container}>
           <FlatList
           data={episode}
-          renderItem={({item}) => <Text>{item}</Text>}
+          renderItem={({item}) => <EpisodeCard item={item}/>}
           />
         </View>
     );

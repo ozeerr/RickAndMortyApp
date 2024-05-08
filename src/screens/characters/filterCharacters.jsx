@@ -1,9 +1,7 @@
-//import liraries
-import React, {useState} from 'react';
+import React from 'react';
 import {
   View,
   Text,
-  StyleSheet,
   ScrollView,
   TouchableOpacity,
 } from 'react-native';
@@ -15,7 +13,7 @@ import {useDispatch, useSelector} from 'react-redux';
 import {changeParams} from '../../store/actions/charactersActions';
 import {useNavigation} from '@react-navigation/native';
 
-// create a component
+
 const FilterCharacters = () => {
   const {params} = useSelector(state => state.characters);
   const dispatch = useDispatch();

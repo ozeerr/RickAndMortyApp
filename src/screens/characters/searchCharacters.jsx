@@ -1,19 +1,14 @@
-//import liraries
-import React, {useCallback, useEffect, useState} from 'react';
-import {View, Text, TextInput, FlatList} from 'react-native';
+import React, {useCallback, useEffect} from 'react';
+import {View,  TextInput, FlatList} from 'react-native';
 import {screensStyle} from '../../styles/screensStyle';
 import {useDispatch, useSelector} from 'react-redux';
-import {
-  changeParams,
-  getCharacterList,
-  loadMoreCharacters,
-} from '../../store/actions/charactersActions';
+import {changeParams,getCharacterList,} from '../../store/actions/charactersActions';
 import SearchItem from '../../components/characters/searchItem';
 import Colors from '../../theme/colors';
 import { debounce } from 'lodash'
 
 
-// create a component
+
 const SearchCharacters = () => {
   const {characterList, pending, params} = useSelector(
     state => state.characters,

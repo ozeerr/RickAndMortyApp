@@ -1,10 +1,8 @@
-// In App.js in a new project
-
 import * as React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import TabNavigator from './tabRouter';
 import {CHAARACTERDETAIL, FILTERCHARACTERS, SEARCHCHARACTERS, TABNAVIGATOR} from '../utils/routes';
-import CharacterDetail from '../screens/characters/characterDetaail';
+import CharacterDetail from '../screens/characters/characterDetail';
 import Colors from '../theme/colors';
 import FilterCharacters from '../screens/characters/filterCharacters';
 import SearchCharacters from '../screens/characters/searchCharacters';

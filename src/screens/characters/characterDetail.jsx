@@ -1,17 +1,13 @@
-//import liraries
 import React, {useEffect} from 'react';
-import {View, Text, Image, ScrollView} from 'react-native';
 import {screensStyle} from '../../styles/screensStyle';
+import {View, Text, Image, ScrollView} from 'react-native';
 import {useDispatch, useSelector} from 'react-redux';
-import {
-  getSingleCharacter,
-  resetData,
-} from '../../store/actions/charactersActions';
+import {getSingleCharacter,resetData} from '../../store/actions/charactersActions';
 import Spinner from '../../components/uı/spinner';
-import {characterDetailStyle} from '../../styles/charactersStyle';
 import {statusTypes} from '../../utils/constans';
+import {characterDetailStyle} from '../../styles/charactersStyle';
 
-// create a component
+
 const CharacterDetail = ({route}) => {
   const {characterID} = route?.params;
   const {pendingSingleCharacter, singleCharacter} = useSelector(

@@ -1,9 +1,5 @@
 import React from 'react';
-import {
- Man,
- Woman,
- Command
-} from 'iconsax-react-native';
+import {Man,Woman,Command} from 'iconsax-react-native';
 import { genderTypes } from '../../utils/constans';
 import Colors from '../../theme/colors';
 

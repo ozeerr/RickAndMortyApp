@@ -1,16 +1,6 @@
 import {CHARACTERS_URL} from '../../service/urls';
 import {getRequest} from '../../service/verbs';
-import {
-  CHARACTERS_REJECT,
-  FETCH_CHARACTERS,
-  PENDING_CHARACTERS,
-  FETCH_SINGLECHARACTER,
-  PENDING_SINGLECHARACTER,
-  SINGLECHARACTER_REJECT,
-  RESET_DATA,
-  CHANGE_PARAMS,
-  LOAD_MORE_DATA,
-} from '../types/characterTypes';
+import {CHARACTERS_REJECT,FETCH_CHARACTERS,PENDING_CHARACTERS,FETCH_SINGLECHARACTER,PENDING_SINGLECHARACTER,SINGLECHARACTER_REJECT,RESET_DATA,CHANGE_PARAMS,LOAD_MORE_DATA,} from '../types/characterTypes';
 
 export const getCharacterList = params => {
   return async dispatch => {

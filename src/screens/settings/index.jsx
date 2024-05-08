@@ -1,15 +1,14 @@
-//import liraries
-import React, { Component } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-import { screensStyle } from '../../styles/screensStyle';
+import { StyleSheet, Text, View } from 'react-native'
+import React from 'react'
 
-// create a component
 const Settings = () => {
-    return (
-        <View style={screensStyle.container}>
-            <Text>Settings</Text>
-        </View>
-    );
-};
+  return (
+    <View>
+      <Text>Settings</Text>
+    </View>
+  )
+}
 
-export default Settings;
+export default Settings
+
+const styles = StyleSheet.create({})

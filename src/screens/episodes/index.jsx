@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { View, Text, StyleSheet, FlatList } from 'react-native';
+import { View, FlatList } from 'react-native';
 import { screensStyle } from '../../styles/screensStyle';
 import {useSelector, useDispatch} from 'react-redux';
 import { getEpisodes } from '../../store/actions/episodeActions';
@@ -15,6 +15,7 @@ const Episodes = () => {
     return (
         <View style={screensStyle.container}>
           <FlatList
+          showsVerticalScrollIndicator={false}
           data={episode}
           renderItem={({item}) => <EpisodeCard item={item}/>}
           />
@@ -23,12 +24,4 @@ const Episodes = () => {
 };
 
 export default Episodes;
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-    },
-});
 

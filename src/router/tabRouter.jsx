@@ -8,7 +8,6 @@ import {tabBarStyle} from '../styles/tabBarStyle';
 import {CHARACTERS, EPISODES, LOCATIONS, SETTINGS} from '../utils/routes';
 import Colors from '../theme/colors';
 import TabIcon from '../components/router/taabIcon';
-import {Text} from 'react-native';
 import HeaderRight from '../components/router/headerRight';
 
 const Tab = createBottomTabNavigator();

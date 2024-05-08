@@ -1,6 +1,6 @@
 import { EPISODES_URL } from "../../service/urls";
 import { getRequest } from "../../service/verbs";
-import { EPISODES_REJECT, FETCH_EPISODES } from "../types/episodeTypes";
+import {  FETCH_EPISODES } from "../types/episodeTypes";
 
 export const getEpisodes =(params) => {
     return async dispatch => {

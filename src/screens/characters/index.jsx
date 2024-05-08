@@ -1,10 +1,8 @@
 import React, {useEffect} from 'react';
-import {View, Text, StyleSheet, FlatList} from 'react-native';
+import {View, FlatList} from 'react-native';
 import {screensStyle} from '../../styles/screensStyle';
 import {useDispatch, useSelector} from 'react-redux';
-import {
-  getCharacterList,
-} from '../../store/actions/charactersActions';
+import {getCharacterList} from '../../store/actions/charactersActions';
 import Spinner from '../../components/uı/spinner';
 import CharacterCard from '../../components/characters/characterCard';
 
@@ -23,6 +21,7 @@ const Chaaracters = () => {
         <Spinner />
       ) : (
         <FlatList
+          showsVerticalScrollIndicator={false}
           data={characterList}
           renderItem={({item}) => <CharacterCard item={item} />}
         />

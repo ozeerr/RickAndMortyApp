@@ -1,79 +1,59 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+<h1>
+     Rick And Morty App
+</h1>
 
-# Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
-## Step 1: Start the Metro Server
+You can learn about the Rick and Morty universe with this application.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Using Technologies:
+- React Native
+- React Native Navigation
+- React Native Iconsax
+- Redux
+- Redux Toolkit
+- Axios
+- Lodash
 
-To start Metro, run the following command from the _root_ of your React Native project:
 
-```bash
-# using npm
-npm start
 
-# OR using Yarn
-yarn start
-```
 
-## Step 2: Start your Application
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
-### For Android
 
-```bash
-# using npm
-npm run android
 
-# OR using Yarn
-yarn android
-```
 
-### For iOS
 
-```bash
-# using npm
-npm run ios
 
-# OR using Yarn
-yarn ios
-```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
 
-## Step 3: Modifying your App
 
-Now that you have successfully run the app, let's modify it.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
 
-## Congratulations! :tada:
 
-You've successfully run and modified your React Native App. :partying_face:
+## Screenshots
 
-### Now what?
+| Home | Search | Filter | Episodes |
+| --- | --- | --- | --- |
+| <img src="https://github.com/ozeerr/RickAndMortyApp/assets/137641188/b80ec41e-911b-4233-95ff-7b22560d8128" alt="OnBoarding" width="100%"/> | <img src="https://github.com/ozeerr/RickAndMortyApp/assets/137641188/67bbc458-19a6-4c16-a110-53d93a23e40d" alt="LoginAndRegister" width="100%" /> | <img src="https://github.com/ozeerr/RickAndMortyApp/assets/137641188/35aaea5d-455f-4b1b-9d9c-0a1d79cf6c23" alt="LoginAndRegister" width="100%"/> | <img src="https://github.com/ozeerr/RickAndMortyApp/assets/137641188/05645bda-5d3f-4ac2-b889-4cc0718a1f72" alt="HomePage" width="100%"/> |
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+| Locations |  |  |  |
+| --- | --- | --- | --- |
+| <img src="https://github.com/ozeerr/RickAndMortyApp/assets/137641188/7262a1b2-a22a-4ca0-97ea-417ca5fd4b26" alt="" width="100%"/> | <img src="https://github.com/ozeerr/RickAndMortyApp/assets/137641188/447b8d6d-c461-4f7c-ba7d-ea32a3e5ed9c" alt="" width="100%" /> | <img src="https://github.com/ozeerr/RickAndMortyApp/assets/137641188/447b8d6d-c461-4f7c-ba7d-ea32a3e5ed9c" alt="" width="100%"/> | <img src="https://github.com/ozeerr/RickAndMortyApp/assets/137641188/447b8d6d-c461-4f7c-ba7d-ea32a3e5ed9c" alt="" width="100%"/> |
 
-# Troubleshooting
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
 
-# Learn More
 
-To learn more about React Native, take a look at the following resources:
+## Video Preview 🎥 
+![Simulator Screen Recording - iPhone 15 Pro Max - 2024-05-10 at 20 22 20](https://github.com/ozeerr/RickAndMortyApp/assets/137641188/e9c1ad3b-40aa-4e2d-a187-0aee19f70c22)
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+
+
+
+## Contact Me
+
+If you have any questions, encounter issues, or want to provide feedback, please feel free to reach out to me via email at<br>
+[efe.aeo@gmail.com](mailto:efe.aeo@gmail.com)<br>
